@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.add a{
+    font-size: 40px;
+    color: #3481d0;
+    text-decoration: none;
+}
+
+.title{
+    margin: 50px 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+}
+
+.albums{
+    width: 300px;
+}
+
+.title a{
+    float: right;
+    color: #3481d0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.album{
+    margin: 10px;
+    float: left;
+    width: calc(100% / 6 -20px);
+}
+
+.album-image img{
+    width: 100%;
+}
+
+.album-title, .album-number{
+    font-size: 20px;
+    margin: 10px 0; 
+}
+
+.album-number{
+    color: grey;
+}
+

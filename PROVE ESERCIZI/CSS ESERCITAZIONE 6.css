@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.album{
+    width: 200px;
+    position: relative;
+}
+
+.album-image img, .layover{
+    width: 100%;
+    height: 100%;
+}
+
+.layover:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.album:hover .stella{
+    display: block;
+}
+
+.stella{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: orange;
+}
+/*
+.background{
+    background-image: url('./accompagno_8.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.layover:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main-text{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.layover{
+    width: 100%;
+    height: 100%;
+}*/

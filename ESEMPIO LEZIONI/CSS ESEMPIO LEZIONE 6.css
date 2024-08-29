@@ -1,0 +1,67 @@
+.square{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.square.green{
+  background: green;
+}
+
+.square.red{
+  background: red;
+}
+
+/*SE POSITION E' DIVERSO DA STATIC, E' NECESSARIO IMPOSTARE LA POSIZIONE DELL'ELEMENTO CON: TOP, RIGHT, BOTTOM, LEFT*/
+.square.blue{
+  background: blue;
+  position: relative; /*POSITION DICE DOVE UN ELEMENTO VIENE POSIZIONATO, SI APPLICA A TUTTI GLI ELEMENTI E NON VIENE EREDITATA*/
+  top: 10px;
+  left: 10px;
+}
+
+.container{
+    height: 180px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 1px; /*E' PIU' INDICATO PER SPOSTARE LE COSE RISPETTO A POSITION*/
+    position: relative;
+    left: 20px;
+    background: lightgreen;
+  }
+  
+  .blue{
+    height: 50px;
+    width: 50px;
+    background: blue;
+  }
+  
+  .red{
+    height: 50px;
+    width: 50px;
+    background: red;
+  }
+  
+  .yellow{
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    position: absolute; /*AVVIENE SEMPRE RISPETTO AL CONTENITORE (PRIMO ELEMENTO CON POSITION DIVERSA DA STATIC) DELL'ELEMENTO. ABSOLUTE RENDE GLI ELEMENTI BLOCK*/
+    top: 0;
+    right: 0;
+  }
+    
+  #container{
+  height:50px;
+}
+
+#contained{
+  background: red;
+  height: 100vh;
+}
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+

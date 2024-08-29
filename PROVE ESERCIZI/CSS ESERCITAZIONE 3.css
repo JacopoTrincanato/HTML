@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg');
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+h2{
+    margin-top: 10px;
+}
+
+#special-number{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/*IL CLEARFIX VA DATO AL PADRE DEGLI ELEMENTI FLOATATI*/
+.email::after{
+    content: '';
+    display: table;
+    overflow: hidden;
+    clear: both;
+}
+
+.email .read{
+    background-color: gray;
+}
+
+.left, .right{
+    float: left;
+}
+
+.left{
+    width: 30%;
+}
+
+.star::after{
+    content: "\2605";
+    color: mediumblue;
+}
+
+.right{
+    width: 70%;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo-text, nav > h2, #note{
+    color: white;
+}
+
+.logo-text{
+    font-size: 20px;
+}
+
+.email .unread{
+    background-color: white;
+}

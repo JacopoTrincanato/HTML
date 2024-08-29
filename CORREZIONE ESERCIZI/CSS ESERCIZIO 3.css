@@ -1,0 +1,17 @@
+header{
+    background-color: lightgray;
+    text-align: center;
+}
+
+hr{
+    border-color: orange;
+}
+
+main{
+    padding: 8px;
+}
+
+.section-title{
+    color: orange;
+}
+    

@@ -1,0 +1,65 @@
+body{
+    background-image: none;
+    color: white;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo-text{
+    font-size: 25px;
+}
+
+#search{
+    width: 80px;
+}
+
+#unread-count{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.read{
+    background-color: lightgray;
+    
+}
+
+.unread{
+    background-color: white;
+    
+}
+
+.row{
+    color: black;
+    
+}
+
+.row-left{
+    width: 30%;
+    display: inline-block;
+    
+}
+
+.row-right{
+    width: 68%;
+    display: inline-block;
+}
+
+.subject{
+    width: 100px;
+}
+
+footer{
+    text-align: center;
+}
+
+#name-footer{
+    font-size: 30px;
+}

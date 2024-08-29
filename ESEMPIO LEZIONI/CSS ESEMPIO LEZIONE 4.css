@@ -1,0 +1,50 @@
+/*PROPRIETA' FONT*/
+.puel{
+    font-family: Arial, Helvetica, sans-serif; /*TIPO GRAFICA*/
+    font-size: 12 px;
+    font-weight: 800;
+    line-height: 18px; /*ALTEZZA RIGA TESTO*/
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*PROPRIETA' BACKGROUND*/
+.superpuel{
+    background-color: aliceblue;
+    background-image: none; /*URL(INDIRIZZO IMMAGINE)*/
+    background-size: auto; /*GRANDEZZA IN %, PIXEL, COVER, CONTAIN*/
+    background-repeat: initial;
+    background-attachment: fixed;
+    background-position: 0%;
+}
+
+.gianni{
+    width: 1000px; /*ESPRESSA IN PX, %BLOCCO CONTENITORE, EM (DIMENSIONI FONT)*/
+    height: 1000px;
+    border: 1 px solid black; /*IL SUO VALORE SI SOMMA ALLE DIMENSIONI DEL BLOCCO*/
+    /*SE SI SPECIFICANO PIU' VALORI, SI APPLICANO A LATO SUPERIORE, DESTRO, INFERIORE E SINISTRO*/
+    margin: auto; /*DISTANZA TRA ELEMENTO E MONDO ESTERNO*/
+    padding: auto; /*DISTANZA TRA ELEMENTO E MONDO INTERNO*/
+    border-radius: 0%; /*ARROTONDA L'ELEMENTO*/
+}
+
+/*PROPRIETA' BOX-SIZING*/
+.box-sizing{
+    box-sizing: content-box; /*MODALITA' DI DEFAULT*/
+    box-sizing: padding-box; /*NON SOMMA PADDING, MA SOLO BORDER*/
+    box-sizing: border-box; /*NON SOMMA NE PADDING NE BORDER*/
+}
+
+/*PROPRIETA' DISPLAY*/
+.display{
+    display: none; /*L'ELEMENTO NON VIENE VISUALIZZATO E NON OCCUPA ALCUNO SPAZIO*/
+    display: block; /*RENDE POSSIBILE IMPOSTAZIONE PROPRIETA' TIPICHE ELEMENTI BLOCCO*/
+    display: inline; /*L'ELEMENTO VIENE AFFIANCATO AD ALTRI ELEMENTI INLINE E NON PUO' CONTENERE BLOCK*/
+    display: inline-block; /*VIENE AFFIANCATO AD ALRI ELEMENTI E RENDE POSSIBILE IMPOSTAZIONE PROPRIETA' ELEMENTI BLOCK*/
+}
+
+*{ /*INDICA LA PROPRIETA' DA DARE A QUALSIASI TAG SI ANDRA' A SCRIVERE*/
+    box-sizing: border-box;
+    margin: 0;
+    /*LE PROPRIETA' CHE SI OCCUPANO DI TESTO SONO EREDITABILI*/
+}

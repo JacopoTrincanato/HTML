@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#importante{
+    background-color: chartreuse;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+#importante, .container{
+    width: 1000px;
+    margin: auto;
+}
+
+#importante, .layover > h2, .square{
+    text-align: center;
+}
+
+.container{
+    height: 60vh;
+    margin-top: 30px;
+}
+
+.layover > h2, .square{
+    height: 100px;
+    line-height: 100px;
+}
+
+.layover > h2{
+    font-size: 50px;
+    background-color: black;
+    color: lightgreen;
+    border-radius: 50%;
+}
+
+.layover{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.layover:hover{
+    background-color: rgba(255, 0, 0, 0.445);
+}
+
+.layover::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.square{
+    width: calc(100% / 4 - 20px);
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+}
+
+.square.red{
+    background-color: red;
+}
+
+.square.yellow{
+    background-color: yellow;
+}
+
+.square.blue{
+    background-color: blue;
+}
+
+.square.violet{
+    background-color: violet;
+}

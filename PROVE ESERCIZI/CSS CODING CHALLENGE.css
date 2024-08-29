@@ -1,0 +1,74 @@
+body{
+    background-image: url("../HTML/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 1000px;
+    margin-left: 300px;
+    margin-top:50px;
+    background: rgba(40, 37, 37, 0.6);
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 15px;
+}
+
+.title{
+    color: rgb(20, 224, 20);
+    font-size: 40px;
+    margin-left: 150px; 
+}
+
+.lim{
+    width: 200px;
+    margin-left: 300px;
+}
+
+.rectangle {
+    width: 800px;    
+    height: 30px;   
+    background-color: rgb(20, 224, 20); 
+    padding-top: 10px;  
+    padding-left: 10px;
+}
+
+.button{
+    margin-left: 250px;
+}
+
+div, span{
+    color: white;
+}
+
+div{
+    display: inline-block;
+}
+
+#main{
+    font-size: 20px;
+}
+
+#rectangle1 {
+    width: 250px;    
+    height: 30px;   
+    background-color: orange; 
+}
+
+#rectangle2 {
+    width: 450px;    
+    height: 30px;   
+    background-color: rgb(35, 188, 35); 
+}
+
+#rectangle3{
+    width: 150px;    
+    height: 30px;   
+    background-color: red;   
+} 
+
+#rectangle1, #rectangle2, #rectangle3{
+    border-radius: 5px;    
+}
+

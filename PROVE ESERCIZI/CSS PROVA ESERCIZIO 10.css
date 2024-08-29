@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+}
+
+section.content{
+    min-height: calc(100vh - 60px);
+    width: calc(100% - 60px);
+    margin: 60px 0 0 60px;
+    padding: 50px;
+}
+
+section.content::after{
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+
+.video{
+    margin: 30px;
+}
+
+.video-top{
+    width: 350px;
+    position: relative;
+}
+
+.video:hover .video-top::after{
+    content: "PUEL";
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    color: white;
+    background: rgba(184, 227, 11, 0.7); 
+}
+
+
+.video .video-top img, .video-bottom-left img{
+    max-width: 100%;
+}
+
+.video-bottom{
+    margin-top: 20px;
+}
+
+.video, .video-bottom-left, .video-bottom-right{
+    float: left;
+}
+
+.video-bottom-left{
+    width: 50px;
+}
+
+.video-bottom-right{
+    width: calc(100% - 50px);
+    padding: 0 20px;
+    font-size: 13px;
+}
+
+.video-bottom-right h3{
+    color: #333333;
+}
+
+.video-bottom-right p{
+    color: #606060;
+    margin-top: 5px;
+} 
+

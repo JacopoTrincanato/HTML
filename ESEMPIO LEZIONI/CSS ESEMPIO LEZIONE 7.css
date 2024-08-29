@@ -1,0 +1,48 @@
+.background{
+    background-image: url(background1.jpg);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center; /*PERMETTE DI VEDERE UNA PARTE IN PARTICOLARE DELLA FOTO*/
+    /*NON POSSONO ESSERCI UNA IMAGE E UN COLOR CONTEMPORANEAMENTE*/
+}
+
+.main-text{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightgreen;
+    text-align: center; /*DA METTERE SOLO CON TESTO*/
+}
+ 
+.layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+#container{
+    height:50px;
+  }
+  
+  #contained{
+    background: red;
+    height: 100vh;
+  }
+  body{
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /*MODO PER CENTRARE VERTICALMENTE E ORIZZONTALMENTE*/
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/

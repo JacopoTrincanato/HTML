@@ -1,0 +1,16 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.subject{
+    background-color: red;
+    display: inline-block;
+    width: 30%;
+}
+
+.body{
+    background-color: blue;
+    display: inline-block;
+    width: 68%;
+} 

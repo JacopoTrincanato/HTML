@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+}
+
+.left-side, .right-side{
+    border: 1px solid lightgray;
+    float: left;
+}
+
+.left-side{
+    width: 18%; 
+}
+
+#subtitle{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    padding: 20px;
+}
+
+li{
+    margin-left: 20px;
+}
+
+.Roboto, select, .text-riga1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.Roboto:after{
+    clear: both;
+    content: "";
+    display: table;
+    }
+
+.testo, img, .up-image, .up-text{
+    float: left;
+}
+
+li > img, .riga1 img{
+    width: 30px;
+}
+
+.riga1{
+    position: relative;
+}
+
+.riga1 img{
+    position: absolute;
+    right: 0;
+}
+
+.right-side{
+    width: 82%; 
+}
+
+.up-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.up{
+    height: 150px;
+}
+
+.up-text{
+    width: calc(100% - 300px);
+    padding: 0 50px;
+}
+
+.text-riga1{
+    margin: 20px;
+    background-color: lightgray;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.riga1, .riga2, .riga3, .riga4{
+    margin-top: 20px;
+}
+
+.text-riga2{
+    margin-right: 10px;
+}
+

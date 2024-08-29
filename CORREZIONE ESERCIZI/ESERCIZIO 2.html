@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione sito Internet</title>
+</head>
+<body>
+    
+    <!--POSSIBILI TAG DI IMPUT:TEXT, NUMBER, COLOR, CHECKBOX, RADIO, DATE, FILE, MONTH, PASSWORD, RANGE, TIME, SUBMIT-->
+    <!--SELECT, TEXTAREA E BUTTON NON VANNO COL TAG INPUT TYPE "". SUBMIT CREA UN BOTTONE PER INVIARE I VALORI DEGLI INPUT AL BACKEND
+    MENTRE BUTTON SI USA PER CREARE BOTTONI DA USARE PER FARE COSE NEL SITO WEB. PER INVIARE EFFETTIVAMENTE LE INFO DEGLI INPUT, LI SI
+    DEVE RACCHIUDERE IN UN TAG <FORM>-->
+    
+    <h1>Registrazione sito Internet</h1>
+
+    <form action="">
+        <div>
+            <input type="text" placeholder="Inserisci il tuo nome" required minlength="3" maxlength="10">
+        </div>    
+
+        <div>   
+            <input type="text" placeholder="Inserisci il tuo cognome">
+        </div>
+
+        <div>   
+            <input type="email" placeholder="Inserisci la tua email">
+        </div>
+
+        <div>   
+            <select>
+                <option>Abruzzo</option>
+                <option>Basilicata</option>
+                <option>Calabria</option>
+                <option>Campania</option>
+            </select>    
+        </div>
+
+        <div>
+            <input type="radio" name="Maggiorenne">0-18
+            <input type="radio" name="Maggiorenne">18+
+        </div>
+
+        <div>
+            <input type="checkbox">Accetta i termini e condizioni
+        </div>
+
+        <div>
+            <input type="submit" value="Invia">
+        </div>
+    </form>
+</body>
+</html>
+    

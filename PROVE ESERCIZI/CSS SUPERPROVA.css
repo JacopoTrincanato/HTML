@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    background-image: url('https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2024/06/truffa-smishing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav img, li img{
+    width: 150px;
+}
+
+header h1{
+    font-size: 50px;
+    color: darkred;
+}
+
+header h1, footer h1{
+    text-align: center;
+}
+
+.item{
+    position: relative;
+}
+
+.item-text{
+    position: absolute;
+    left: 30px;
+    
+}
+
+footer h1{
+    color: cornflowerblue;
+}

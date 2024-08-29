@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS CORREZIONE ESERCIZIO 7.css">
+</head>
+<body>
+    <div class="container">
+        <!--IL MARGIN AUTO FUNZIONA SOLO PER GLI ELEMENTI DI TIPO BLOCK-->
+        
+        <div class="row"> <!--CLASSE GENERICA PER NON LASCIARE UN DIV CHE NON DICA NIENTE. LO SI FA PER SPECIFICITA'-->
+            <div class="item">
+                <img src="./pd1.jpg">
+                <span class="discuont green">-30%</span>
+                <div class="heart">&hearts;</div>
+            </div> 
+
+            <div class="item" id="special-item">
+                <span class="discuont red">-30%</span>
+            </div>
+
+            <div class="item">
+                <img src="./pd3.jpg">
+                <span class="discuont green">-30%</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item">
+                <img src="./pd1.jpg">
+                <span class="discuont red">-30%</span>
+            </div>
+
+            <div class="item" id="special-item">
+                <span class="discuont green">-30%</span>
+            </div>
+
+            <div class="item">
+                <img src="./pd3.jpg">
+                <span class="discuont red">-30%</span>
+            </div>
+        </div>
+    
+    </div>    
+</body>
+</html>

@@ -1,0 +1,48 @@
+/*SELEZIONA OGNI DIV CHE HA ANCHE LA CLASSE STARRED*/
+div.starred{
+    text-decoration: overline;
+}
+
+/*SELEZIONA TUTTI I DIV E TUTTO CIO' CHE HA CLASSE STARRED*/
+div, .starred{
+    text-decoration: overline;
+}
+
+/*DESCENDANT SELECTOR (PRENDE TUTTI I P CHE HANNO UN ANTENATO DI TIPO DIV IN QUESTO CASO)*/
+div p{
+    text-decoration: overline;
+}
+
+/*CHILD SELECTOR (PRENDE SOLO I P CHE SONO FIGLI DI DIV*/
+div > p{
+    text-decoration: overline;
+}
+
+/*INSERISCE QUALCOSA PRIMA DI "QUESTA" (GUARDA HTML)*/
+.star::before{
+    content: "prova";
+}
+
+/*INSERISCE QUALCOSA DOPO DI "STELLA" (GUARDA HTML)*/
+.star::after{
+    content: "prova";
+}
+
+/*ATTRIBUTE SELECTOR (SELEZIONA I TAG DI INPUT CHE HANNO UN ATTRIBUTO TYPE CON VALORE EMAIL*/
+input[type="email"]{
+    color: blue;
+}
+
+/*HOVER RICHIAMA LA REGOLA SOLO QUANDO CI SI VA SOPRA COL MOUSE*/
+li a:hover{
+    text-decoration: underline;
+}
+
+li a:visited{
+    text-decoration: underline;
+}
+
+/*CI PERMETTONO DI SELEZIONARE IL PRIMO O L'ULTIMO ELEMENTO*/
+ul li:first-child /*O LAST-CHILD*/ {
+    border-left: none;
+} 

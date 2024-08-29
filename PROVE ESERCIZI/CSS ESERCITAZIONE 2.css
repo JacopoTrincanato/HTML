@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+#titolo{
+    height: 10vh;
+    background-color: black;
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.content-left{
+    float: left;
+    width: 30%;
+    background-color: grey;
+}
+
+.nav-content{
+    display: inline-block;
+}
+
+.iconcina{
+    width: 20px;
+    float: left;
+}
+
+.immagine img{
+    width: 100%;
+}
+
+.testo{
+    float: left;
+}
+
+.content-right{
+    float: left;
+    width: 70%;
+    background-color: bisque;
+}
+
+.article-image{
+    width: 400px;
+}
+
+.immagine-1 img{
+    width: 100%;
+    float: left;
+}
+
+.immagine-2 img{
+    width: 100%;
+    float: right;
+}
+
+.article{
+    margin-top: 10px;
+    float: left;
+}
+
+.main:after{
+    clear: both;
+    content: "";
+    display: table;
+    }
